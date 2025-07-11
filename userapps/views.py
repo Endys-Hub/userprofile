@@ -6,6 +6,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 
 from django.contrib.auth.models import User
+from django.contrib.auth import login,logout,authenticate
 
 from . serializers import UserSerializer, UserProfileSerializer, RegistrationSerializer
 from . models import UserProfile
@@ -20,5 +21,25 @@ class RegistrationView(APIView):
             return Response(serializers.errors, status=status.HTTP_400_BAD_REQUEST)
         except Exception as e:
             return Response({"Error":str(e)})
-        
 
+class LoginView(APIView):
+        def post(self,request):
+            try:
+                 username = request.data.get('username')
+                 password = request.data.get('password')
+                 user = authenticate(username=username, password=password)
+                 if user is not None:
+                      login(request, user)
+                      return Response({'Message':'User was logged in successfully'}, status=status.HTTP_200_OK)
+                 return Response({'Message':'Username / Password is wrong'}, status=status.HTTP_400_BAD_REQUEST)
+            except Exception as e:
+                return Response({"Error":str(e)})
+            
+class LogoutView(APIView):
+        def post(self,request):
+            try:
+                logout(request)
+                return Response({"Message: Logged Out Successfully"}, status=status.HTTP_200_OK)
+            except Exception as e:
+                return Response({"Error":str(e)})
+             
