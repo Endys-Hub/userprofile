@@ -26,7 +26,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://userprofile-a7tt.onrender.com/','userprofile-a7tt.onrender.com/','http://userprofile-a7tt.onrender.com/'] # ['*'] 
+ALLOWED_HOSTS = ['https://userprofile-a7tt.onrender.com','userprofile-a7tt.onrender.com','http://userprofile-a7tt.onrender.com'] # ['*'] 
 
 # Application definition
 
