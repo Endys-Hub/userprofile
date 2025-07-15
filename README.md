@@ -1,9 +1,9 @@
 # User App Project
 ## This is an API Project that allows Users to Login or Register and Sign-Up!
 
-## Postman consumption of the API Endpoints 
+## Postman consumption of the API  
+**Registration Endpoints**
 
-## Registration
 ## Local Host: http://127.0.0.1:8000/register/
 
 ![Screenshot (957)](https://github.com/user-attachments/assets/92a5e14c-433b-4eb9-9519-ad5bd08bb6d8)
