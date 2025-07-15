@@ -1,11 +1,16 @@
 # User App Project
 ## This is an API Project that allows Users to Login or Register and Sign-Up!
 
-## Endpoints for Registration
-## http://127.0.0.1:8000/register/
+## Postman consumption of the API Endpoints 
+
+## Registration
+## Local Host: http://127.0.0.1:8000/register/
 
 ![Screenshot (957)](https://github.com/user-attachments/assets/92a5e14c-433b-4eb9-9519-ad5bd08bb6d8)
 
+## Server: https://myuserprofile.onrender.com/register/
+
+<img width="1070" height="721" alt="register(r)" src="https://github.com/user-attachments/assets/e94efcea-6592-422c-8e2d-175a1ad67fa7" />
 
 ## The Folder Structure
 
