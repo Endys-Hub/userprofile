@@ -1,9 +1,9 @@
 # User App Project
 ## This is an API Project that allows Users to Register/Sign-Up, Login, and Logout
 
-## Postman consumption of the API endpoints for 'register/', 'login/', and 'logout/'  
+## Postman & LocalHost consumption of the API endpoints for 'register/', 'login/', and 'logout/'  
 **Register Endpoints**
-## Local Host: http://127.0.0.1:8000/register/
+## LocalHost: http://127.0.0.1:8000/register/
 ![Screenshot (957)](https://github.com/user-attachments/assets/92a5e14c-433b-4eb9-9519-ad5bd08bb6d8)
 
 ## Server: https://myuserprofile.onrender.com/register/
@@ -11,7 +11,7 @@
 
 ## 
 **Login Endpoints**
-## Local Host: http://127.0.0.1:8000/login/
+## LocalHost: http://127.0.0.1:8000/login/
 <img width="1071" height="719" alt="login(l)" src="https://github.com/user-attachments/assets/e068a342-e459-44d7-8691-1b9b96c8086e" />
 
 ## Server: https://myuserprofile.onrender.com/login/
@@ -19,7 +19,7 @@
 
 ## 
 **Logout Endpoints**
-## Local Host: http://127.0.0.1:8000/logout/
+## LocalHost: http://127.0.0.1:8000/logout/
 <img width="1073" height="721" alt="logout(l)" src="https://github.com/user-attachments/assets/7a40151b-9e14-4f08-a2d2-0404e7c65284" />
 
 ## Server: https://myuserprofile.onrender.com/logout/
