@@ -10,7 +10,7 @@
 ## Server: https://myuserprofile.onrender.com/register/
 <img width="1070" height="721" alt="register(r)" src="https://github.com/user-attachments/assets/e94efcea-6592-422c-8e2d-175a1ad67fa7" />
 
-
+## 
 **Login Endpoints**
 
 ## Local Host: http://127.0.0.1:8000/login/
