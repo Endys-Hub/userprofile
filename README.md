@@ -12,12 +12,18 @@
 ## 
 **Login Endpoints**
 ## Local Host: http://127.0.0.1:8000/login/
-
 <img width="1071" height="719" alt="login(l)" src="https://github.com/user-attachments/assets/e068a342-e459-44d7-8691-1b9b96c8086e" />
 
 ## Server: https://myuserprofile.onrender.com/login/
-
 <img width="1069" height="721" alt="login(r)" src="https://github.com/user-attachments/assets/5b20b52d-4358-4318-943a-80a90c4cd74c" />
+
+## 
+**Logout Endpoints**
+## Local Host: http://127.0.0.1:8000/logout/
+<img width="1073" height="721" alt="logout(l)" src="https://github.com/user-attachments/assets/7a40151b-9e14-4f08-a2d2-0404e7c65284" />
+
+## Server: https://myuserprofile.onrender.com/logout/
+<img width="1071" height="723" alt="logout(r)" src="https://github.com/user-attachments/assets/af51e1fa-e613-4002-8990-c59a44e87641" />
 
 ## The Folder Structure
 
