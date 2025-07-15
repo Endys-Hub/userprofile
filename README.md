@@ -3,7 +3,6 @@
 
 ## Postman consumption of the API endpoints for 'register/', 'login/', and 'logout/'  
 **Register Endpoints**
-
 ## Local Host: http://127.0.0.1:8000/register/
 ![Screenshot (957)](https://github.com/user-attachments/assets/92a5e14c-433b-4eb9-9519-ad5bd08bb6d8)
 
@@ -12,7 +11,6 @@
 
 ## 
 **Login Endpoints**
-
 ## Local Host: http://127.0.0.1:8000/login/
 
 <img width="1071" height="719" alt="login(l)" src="https://github.com/user-attachments/assets/e068a342-e459-44d7-8691-1b9b96c8086e" />
